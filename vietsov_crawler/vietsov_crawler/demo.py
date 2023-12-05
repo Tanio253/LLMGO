@@ -5,7 +5,7 @@ import os
 
 
 def read_crawl_data(selected_spider):
-    file_path = f"/home/tanio/nam3/LLM_gas_oil/vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
+    file_path = f"vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
     df = pd.read_json(file_path)
     return df
 
@@ -49,7 +49,7 @@ selected_spider = st.selectbox("Select Spider", ["GT", "DVTT", "SPDV", "NNL", "C
 # Button to trigger the crawling process
 if st.button("Crawl"):
     run_crawler(selected_spider)
-    file_path = f"/home/tanio/nam3/LLM_gas_oil/vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
+    file_path = f"vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
     with open(file_path, 'r') as file:
         json_content = file.read()
         
@@ -60,7 +60,7 @@ if st.button("Crawl"):
     # download_crawl_data_csv(selected_spider, df)
 
 # Display the preview of crawled data on the right side
-file_path = f"/home/tanio/nam3/LLM_gas_oil/vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
+file_path = f"vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
 if os.path.exists(file_path):
     with open(file_path, 'r') as file:
         json_content = file.read()
