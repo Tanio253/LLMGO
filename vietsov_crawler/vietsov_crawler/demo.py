@@ -2,7 +2,8 @@ import streamlit as st
 import subprocess
 import pandas as pd
 import os
-# cnt = 0
+
+
 def read_crawl_data(selected_spider):
     file_path = f"/home/tanio/nam3/LLM_gas_oil/vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
     df = pd.read_json(file_path)
@@ -18,13 +19,11 @@ def run_crawler(selected_spider):
 
 # Function to display a download link for the crawled data
 def download_crawl_data_json(selected_spider, json_content):
-    # global cnt
-    # cnt+=1
     st.download_button(
         label="Download Crawled Data",
         data=json_content.encode('utf-8'),
         file_name=f"{selected_spider}_crawled_data.json",
-        key=f"{selected_spider}__download_button",
+        key=f"{selected_spider}_download_button",
     )
 
 # def download_crawl_data_csv(selected_spider, df):
