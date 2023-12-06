@@ -7,6 +7,8 @@ import os
 def read_crawl_data(selected_spider):
     file_path = f"/home/tanio/nam3/LLM_gas_oil/vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
     df = pd.read_json(file_path)
+    if selected_spider=="GT":
+        df['image'] = df['image'].apply(lambda x: [x] if isinstance(x, str) else x)
     return df
 
 # Function to run the selected spider file
@@ -49,15 +51,6 @@ selected_spider = st.selectbox("Select Spider", ["GT", "DVTT", "SPDV", "NNL", "C
 # Button to trigger the crawling process
 if st.button("Crawl"):
     run_crawler(selected_spider)
-    file_path = f"/home/tanio/nam3/LLM_gas_oil/vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
-    with open(file_path, 'r') as file:
-        json_content = file.read()
-        
-    df = pd.read_json(file_path)
-    
-    # Display download link
-    # download_crawl_data_json(selected_spider, json_content)
-    # download_crawl_data_csv(selected_spider, df)
 
 # Display the preview of crawled data on the right side
 file_path = f"/home/tanio/nam3/LLM_gas_oil/vietsov_crawler/vietsov_crawler/formatted_{selected_spider}.json"
