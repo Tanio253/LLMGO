@@ -41,7 +41,7 @@ def download_crawl_data_json(selected_spider, json_content):
 # Function to display a preview of the crawled data
 def display_crawl_preview(df):
     st.markdown("### Crawled Data Preview:")
-    st.dataframe(df.head(10))  # Displaying the first 10 rows
+    st.dataframe(df)  # Displaying the first 10 rows
 
 # Streamlit app layout
 st.title("Scrapy Crawler App")
