@@ -9,8 +9,6 @@ class CrawlingSpider(CrawlSpider):
     
     rules = (
         Rule(LinkExtractor(allow = 'Pages/cosovatchat.aspx'), callback = 'parse_CSVC'),
-        
-        
     )
     
     
@@ -40,19 +38,22 @@ class CrawlingSpider(CrawlSpider):
         title = response.xpath('//h1//text()').get()
         num_rows = 10
         content = []
+        content_final = []
         for i in range(num_rows):
             content.append({
-                'name': self.processed_text(response.xpath('//h4[contains(@class, "base-name")]//text()').getall()[i]),
-                'image': "https://www.vietsov.com.vn" + response.xpath('//div[contains(@class, "element-item")]')[i].xpath('.//@src').get(),
-                'description': self.processed_text(response.xpath('//div[contains(@class, "desription")]//text()').getall()[i]),
-                'content': '\n'.join(i for i in (list(map(self.processed_text, response.xpath('//div[contains(@class, "content")]/ul')[i].xpath('.//text()').getall()))) if i is not None)
+                'Tên': self.processed_text(response.xpath('//h4[contains(@class, "base-name")]//text()').getall()[i]),
+                'Hình ảnh': "https://www.vietsov.com.vn" + response.xpath('//div[contains(@class, "element-item")]')[i].xpath('.//@src').get(),
+                'Mô tả': self.processed_text(response.xpath('//div[contains(@class, "desription")]//text()').getall()[i]),
+                'Nội dung': '\n'.join(i for i in (list(map(self.processed_text, response.xpath('//div[contains(@class, "content")]/ul')[i].xpath('.//text()').getall()))) if i is not None)
                 
             })
-            
-            
+        for c in content:
+            content_list = [i for item in c.items() for i in item]
+            content_str = '\n'.join(content_list)
+            content_final.append(content_str)
         yield {
             'title': title,
-            'content': content
+            'content': content_final
         }
         
         
