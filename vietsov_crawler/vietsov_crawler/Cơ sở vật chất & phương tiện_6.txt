@@ -1,12 +1,6 @@
-Tên
-VẬN TẢI BIỂN & CÔNG TÁC LẶN
-Hình ảnh
-https://www.vietsov.com.vn/_catalogs/masterpage/vietsov/assets/images/cosovatchat/csvc6.jpg
-Mô tả
-03 tàu công trình (01 tàu cẩu, 02 tàu rải ống); 15 tàu dịch vụ đa năng;
-Nội dung
-03 tàu công trình (01 tàu cẩu, 02 tàu rải ống);
-15 tàu dịch vụ đa năng;
-02 tàu phục vụ công tác lặn;
-01 tàu cung ứng thuyền viên (tàu chở khách);
-01 sà lan chuyên dụng .
+VẬN TẢI BIỂN & CÔNG TÁC LẶN:
+	03 tàu công trình (01 tàu cẩu, 02 tàu rải ống);
+	15 tàu dịch vụ đa năng;
+	02 tàu phục vụ công tác lặn;
+	01 tàu cung ứng thuyền viên (tàu chở khách);
+	01 sà lan chuyên dụng .

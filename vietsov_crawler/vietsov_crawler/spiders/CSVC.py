@@ -41,14 +41,14 @@ class CrawlingSpider(CrawlSpider):
         content_final = []
         for i in range(num_rows):
             content.append({
-                'Tên': self.processed_text(response.xpath('//h4[contains(@class, "base-name")]//text()').getall()[i]),
-                'Hình ảnh': "https://www.vietsov.com.vn" + response.xpath('//div[contains(@class, "element-item")]')[i].xpath('.//@src').get(),
-                'Mô tả': self.processed_text(response.xpath('//div[contains(@class, "desription")]//text()').getall()[i]),
-                'Nội dung': '\n'.join(i for i in (list(map(self.processed_text, response.xpath('//div[contains(@class, "content")]/ul')[i].xpath('.//text()').getall()))) if i is not None)
+                'Tên': self.processed_text(response.xpath('//h4[contains(@class, "base-name")]//text()').getall()[i]) + ':',
+                # 'Hình ảnh': "https://www.vietsov.com.vn" + response.xpath('//div[contains(@class, "element-item")]')[i].xpath('.//@src').get(),
+                # 'Mô tả': self.processed_text(response.xpath('//div[contains(@class, "desription")]//text()').getall()[i]),
+                'Nội dung': '\t' + '\n\t'.join(i for i in (list(map(self.processed_text, response.xpath('//div[contains(@class, "content")]/ul')[i].xpath('.//text()').getall()))) if i is not None)
                 
             })
         for c in content:
-            content_list = [i for item in c.items() for i in item]
+            content_list = [item[1] for item in c.items()]
             content_str = '\n'.join(content_list)
             content_final.append(content_str)
         yield {
