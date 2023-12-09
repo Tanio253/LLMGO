@@ -1,0 +1,27 @@
+[
+    {
+        "context": "Ông A là chủ tịch.\nÔng B là tổng giám đốc.\nÔng C là phó giám đốc thứ nhất.\nD là phó giám đốc.",
+        "question": "Ai là tổng giám đốc?",
+        "answer": "Ông A."
+    },
+    {
+        "context": "Ông A là chủ tịch.\nÔng B là tổng giám đốc.\nÔng C là phó giám đốc thứ nhất.\nD là phó giám đốc.",
+        "question": "Ai là phó giám đốc?",
+        "answer": "Ông C và D."
+    },
+    {
+        "context": "A được thành lập vào năm 1969 tới năm 2001.\nB mua lại A vào năm 1988.",
+        "question": "Công ty A đóng cửa vào năm nào?",
+        "answer": "2001."
+    },
+    {
+        "context": "A được thành lập vào năm 1969 tới năm 2001.\nB mua lại A vào năm 1988.",
+        "question": "Công ty A được thành lập vào năm nào?",
+        "answer": "1969."
+    },
+    {
+        "context": "A được thành lập vào năm 1969 tới năm 2001.\nB mua lại A vào năm 1988.",
+        "question": "Ai đã mua lại A?",
+        "answer": "B."
+    }
+]

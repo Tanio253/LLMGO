@@ -1,7 +1,9 @@
 import json
 import requests
 
+from utils import retry_with_delay
 
+@retry_with_delay(max_retries=5, delay=120)
 def run(str_prompt):
     print(f"Prompt:\n{str_prompt}")
     print(f"Prompt length: {len(str_prompt.split())}")
@@ -14,6 +16,7 @@ def run(str_prompt):
     }
     url = 'https://www.ura.hcmut.edu.vn/ura-llama/generate'
 
+    stop_tokens = ["<|endoftext|>", "</s>", "[INST]", "Câu hỏi:"]
     data = {
         "inputs": str_prompt,
         "parameters": {
@@ -23,14 +26,19 @@ def run(str_prompt):
             "top_k": 10,
             "truncate": 1022,
             "max_new_tokens": 1024,
-            "stop": ["<|endoftext|>", "</s>", "[INST]", "[INST"]
+            "stop": stop_tokens
         }
     }
     json_data = json.dumps(data)
 
     response = requests.post(url, headers=headers, data=json_data, timeout=100)
     response.raise_for_status()
-    return response.json().get("generated_text")
+    generated_text = response.json().get("generated_text").strip()
+
+    for token in stop_tokens:
+        if generated_text.endswith(token):
+            generated_text = token.join(generated_text.split(token)[:-1])
+    return generated_text.strip()
 
 
 if "__main__" == __name__:
