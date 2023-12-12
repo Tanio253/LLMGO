@@ -13,12 +13,14 @@ for item in data:
     title = item['title']
     
     # Iterate through each content block in the 'content' array
+    block = []
     for idx, content_block in enumerate(item['content']):
+        block.append(content_block)
         # Create a new text file with a filename based on the title and index
-        filename = f"{title}_{idx + 1}.txt"
-        
-        # Write the content block to the text file
-        with open(filename, 'w', encoding='utf-8') as text_file:
-            text_file.write(content_block)
+    filename = f"{title}.txt"
+    
+    # Write the content block to the text file
+    with open(filename, 'w', encoding='utf-8') as text_file:
+        text_file.write('\n\n'.join(block))
             
-        print(f"Created file: {filename}")
+    print(f"Created file: {filename}")

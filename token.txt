@@ -1,1 +1,8 @@
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2xvZ2luIjoiVGFuaW8ifQ.0Ob5nYD5V-IqTmpVgnT_2MbRVTDUP6zpDwtmlYC8ECc
+curl --location 'https://www.ura.hcmut.edu.vn/ura-llama/generate' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2xvZ2luIjoiVGFuaW8ifQ.0Ob5nYD5V-IqTmpVgnT_2MbRVTDUP6zpDwtmlYC8ECc' \
+--data '{
+    "inputs": "[INST] Câu hỏi: Albert Einstein là ai? \n Trả lời: [/INST]",
+    "parameters": {"max_new_tokens":100}
+}'
+
