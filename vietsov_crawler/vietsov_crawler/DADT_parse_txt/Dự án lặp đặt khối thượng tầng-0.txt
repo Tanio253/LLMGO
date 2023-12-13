@@ -1,0 +1,11 @@
+Dự án lặp đặt khối thượng tầng
+Khách hàng Hoan Vu JOC có dự án là "Ca Ngu Vang" và phạm vi dự án EPCI. Trọng lượng 800MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa và lắp đặt Topside.
+Khách hàng Hoan Vu JOC có dự án là "Ca Ngu Vang" và phạm vi dự án EPCI. Trọng lượng 319MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa và lắp đặt Module.
+Khách hàng Thang Long JOC có dự án là "Song Doc A" và phạm vi dự án I. Trọng lượng 650MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa .
+Khách hàng JPVC có dự án là "Phuong Dong" và phạm vi dự án EPCI. Trọng lượng 550MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Truong Sa .
+Khách hàng PCVL có dự án là "Ruby A" và phạm vi dự án EPCI. Trọng lượng 650MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa .
+Khách hàng Cuu Long JOC có dự án là "SVNE" và phạm vi dự án EPCI. Trọng lượng 650MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa .
+Khách hàng Cuu Long JOC có dự án là "SVNSW" và phạm vi dự án I. Trọng lượng 750MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Truong Sa .
+Khách hàng JPVC có dự án là "E1A" và phạm vi dự án EPCI. Trọng lượng 400MT, sử dụng phương pháp lắp đặt Single Hook, sử dụng máy Hoang Sa .
+Khách hàng PV Gas có dự án là "DGCP" và phạm vi dự án EPCI. Trọng lượng 850MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa .
+Khách hàng VRJ Petroleum Co. có dự án là "RCDM" và phạm vi dự án EPCI. Trọng lượng 850MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa .

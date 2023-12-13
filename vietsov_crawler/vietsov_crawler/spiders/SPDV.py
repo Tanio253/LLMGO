@@ -45,16 +45,11 @@ class CrawlingSpider(CrawlSpider):
         description = self.processed_text(response.xpath('//div[@class="desription"]//text()').get())
         product_content = list(map(self.processed_text, response.css('.product-name a::text').getall()[1:]))
         product_imgs = list(map(lambda x: "https://www.vietsov.com.vn/" + x, response.xpath('//img[contains(@class, "hideo")]/@src').extract()))
-        content = [{
-            'name': p,
-            'image': i,
-        }
-        for p, i in zip(product_content, product_imgs)]
+        content = description + '\n' + '\n'.join(product_content)
         
         yield {
             'title': title,
-            'description': description,
-            'content': content
+            'content': [content]
         }
         
         

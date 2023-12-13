@@ -15,8 +15,7 @@ class CrawlingSpider(CrawlSpider):
         Rule(LinkExtractor(allow = 'Pages/LinhVuc.aspx'), callback = 'parse_LV'),
         Rule(LinkExtractor(allow = 'Pages/TiemNang.aspx'), callback = 'parse_TN'),
         Rule(LinkExtractor(allow = 'Pages/NhungThanhTuu.aspx'), callback = 'parse_TT'),
-        Rule(LinkExtractor(allow = 'Pages/HinhAnh.aspx'), callback = 'parse_HA'),
-        Rule(LinkExtractor(allow = 'Pages/HinhAnh.aspx'), callback = 'parse_HA'),
+        # Rule(LinkExtractor(allow = 'Pages/HinhAnh.aspx'), callback = 'parse_HA'),
         Rule(LinkExtractor(allow = 'Pages/cacDanhHieu.aspx'), callback = 'parse_DH'),
         Rule(LinkExtractor(allow = 'Pages/AnToanSKMT.aspx'), callback = 'parse_ATSKMT'),
         
@@ -53,7 +52,7 @@ class CrawlingSpider(CrawlSpider):
         img = "https://www.vietsov.com.vn" + response.xpath('//div[contains(@style, "text-align: center;")]/img/@src').get()
         yield {
             'title': title,
-            'image': img,
+            # 'image': img,
             'content': content
         }
     
@@ -71,9 +70,14 @@ class CrawlingSpider(CrawlSpider):
                 'event': event,
                 'image': img
             })
+        final_content = []
+        for c in content:
+            for i in range(len(c['dateEvent'])):
+                content_str = ': '.join([c['dateEvent'][i], c['event'][i]]) + '\n'
+            final_content.append(content_str.strip())
         yield {
             'title': title,
-            'content': content
+            'content': final_content
         }
         
         
@@ -89,7 +93,7 @@ class CrawlingSpider(CrawlSpider):
         img = list(map(lambda x: "https://www.vietsov.com.vn"+x, img))
         yield {
             'title': title,
-            'image': img,
+            # 'image': img,
             'content': content
         }
         
@@ -105,12 +109,12 @@ class CrawlingSpider(CrawlSpider):
         member_role = [response.xpath('//p[contains(@class, "product-name")]//text()').getall()[i] for i in[3,7,11,15,19,23,27,31,35,39,43]] + [response.xpath('//h4[contains(@class, "product-name")]//text()').getall()[1]] + [response.xpath('//p[contains(@class, "product-name")]//text()').getall()[47]]
         member_role = list(map(self.processed_text, member_role))
         member = []
-        for i in range(len(img)):
-            member.append({
-                'memberName': member_name[i] , 
-                'member_role': member_role[i],
-                'image': img[i],
-            })
+        for i in range(len(member_name)):
+            if member_name[i] is None: continue
+            member_name_position = member_name[i] + ': ' + member_role[i] + '\n'
+            member.append(member_name_position)
+                # 'image': img[i],
+            
         yield {
             'title': title,
             'content': member
@@ -124,7 +128,7 @@ class CrawlingSpider(CrawlSpider):
         img = "https://www.vietsov.com.vn" + response.xpath('//p[contains(@style, "text-align: center;")]//@src').get()
         yield {
             'title': title,
-            'image': img,
+            # 'image': img,
             'content': content
         }
         
@@ -136,7 +140,7 @@ class CrawlingSpider(CrawlSpider):
         img = "https://www.vietsov.com.vn" + response.xpath('//p[contains(@style, "text-align: center;")]//@src').get()
         yield {
             'title': title,
-            'image': img,
+            # 'image': img,
             'content': content
         }
         
@@ -158,7 +162,7 @@ class CrawlingSpider(CrawlSpider):
         img = list(map(lambda x: "https://www.vietsov.com.vn" + x,response.xpath('//div[contains(@class, "navigation")]//@src').getall()))
         yield {
             'title': title,
-            'image': img
+            # 'image': img
         }
         
         
@@ -168,10 +172,11 @@ class CrawlingSpider(CrawlSpider):
         img = list(map(lambda x: "https://www.vietsov.com.vn" + x, response.xpath('//img[contains(@class, "hideo")]/@src').getall()))
         medal = list(map(self.processed_text, [response.xpath('//h4[contains(@class, "product-name1")]//text()').getall()[i] for i in [0,1,2,4,5,6,8,9,10,11,12,13,14,15,16,18,19,20,21,22]]))
         medal = [medal[0] +" "+ medal[1]] + medal[2:]
-        full_medal = list(map(lambda x, y: {
-            'image': x,
-            'medal': y
-        }, img, medal))
+        full_medal = list(map(lambda x, y: 
+            # 'image': x,
+            y + '\n'
+        , img, medal))
+        full_medal = ''.join(full_medal)
         yield {
             'title': title,
             'content': full_medal
@@ -189,21 +194,27 @@ class CrawlingSpider(CrawlSpider):
         capability = '\n'.join(i for i in TEXT[20:35] if i is not None)
         model_of_ATSKMT_system = img[0]
         graph_of_ATSKMT_system = img[1]
-        strength_of_ATSKMT_system = '\n'.join(i for i in TEXT[54:74] if i is not None)
+        strength_of_ATSKMT_system = ' '.join(i for i in TEXT[54:74] if i is not None)
         achievement = '\n'.join(i for i in TEXT[76:] if i is not None)
-        content = {
-            'description': TEXT[1],
-            'policy': policy,
-            'capability': capability,
-            'modelOfATSKMTSystem': model_of_ATSKMT_system,
-            'graphOfATSKMTSystem': graph_of_ATSKMT_system,
-            'strengOfATSKMTSystem': strength_of_ATSKMT_system,
-            'achievement': {
-                'content': achievement,
-                'image': img[2]
-            }
+        content = []
+        content.append(f"Mô tả: {TEXT[1]}")
+        content.append(f"Chính sách: {policy}")
+        content.append(f"Năng lực: {capability}")
+        content.append(f"Những tính năng nổi trội: {strength_of_ATSKMT_system}")
+        content.append(f"Thành tựu: {achievement}")
+        # content = {
+        #     'description': TEXT[1],
+        #     'policy': policy,
+        #     'capability': capability,
+        #     'modelOfATSKMTSystem': model_of_ATSKMT_system,
+        #     'graphOfATSKMTSystem': graph_of_ATSKMT_system,
+        #     'strengOfATSKMTSystem': strength_of_ATSKMT_system,
+        #     'achievement': {
+        #         'content': achievement,
+        #         'image': img[2]
+        #     }
             
-        }
+        # }
         
         yield {
             'title': title,

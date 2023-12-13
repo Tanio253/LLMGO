@@ -46,6 +46,6 @@ class CrawlingSpider(CrawlSpider):
         content = '\n'.join(i for i in list(map(self.processed_text, response.xpath('//div[contains(@class, "nnl-content")]//text()').getall()[2:])) if i is not None).strip()
         yield {
             'title': title,
-            'image': img,
-            'content': content
+            # 'image': img,
+            'content': [content]
         }

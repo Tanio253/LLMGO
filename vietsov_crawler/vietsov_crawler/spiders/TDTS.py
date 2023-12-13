@@ -41,11 +41,11 @@ class CrawlingSpider(CrawlSpider):
     def parse_TD(self, response):
         title = self.processed_text(response.xpath('//div[contains(@class, "ms-rtestate-field")]/span/strong/text()').get())
         content = ' '.join(i for i in list(map(self.processed_text, response.xpath('//div[contains(@class, "ms-rtestate-field")]//text()').getall()[1:3])) if i is not None)+'\n'+\
-        '\n'.join(i for i in list(map(self.processed_text, response.xpath('//div[contains(@class, "ms-rtestate-field")]//text()').getall()[3:])) if i is not None)
+        ' '.join(i for i in list(map(self.processed_text, response.xpath('//div[contains(@class, "ms-rtestate-field")]//text()').getall()[3:])) if i is not None)
         
         yield {
             'title': title,
-            'content': content
+            'content': [content]
         }
         
         
@@ -55,6 +55,6 @@ class CrawlingSpider(CrawlSpider):
         link = list(map(lambda x: "https://www.vietsov.com.vn/" + x, response.xpath('//div/p/a/@href').getall()[:2]))
         yield {
             'title': title,
-            'content': content,
-            'link': link
+            'content': [content],
+            # 'link': link
         }

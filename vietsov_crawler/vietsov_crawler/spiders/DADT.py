@@ -45,7 +45,7 @@ class CrawlingSpider(CrawlSpider):
         content = list(map(lambda x: "https://www.vietsov.com.vn" + x,response.xpath('//div[contains(@id, "sliderParent")]//@src').getall()[:7]))
         yield {
             'title': title,
-            'content': content
+            'content': [str(None)]
         }
         links = response.xpath('//div[contains(@class, "more-details")]//@href').getall()
         NC_link = "https://www.vietsov.com.vn"  + links[0]
@@ -76,7 +76,7 @@ class CrawlingSpider(CrawlSpider):
         content = '\n'.join(i for i in list(map(self.processed_text, response.xpath('//div[contains(@class, "ms-rtestate-field")]/p//text()').getall()[4:6])) if i is not None)
         yield {
             'title': title,
-            'content': content
+            'content': [content]
         }
         
         
@@ -86,16 +86,22 @@ class CrawlingSpider(CrawlSpider):
         mine = response.xpath('//td[contains(@width, "175")]/p/span/text()').getall()
         guest = response.xpath('//td[contains(@width, "163")]/p/span/text()').getall()
         job_do = list(map(self.processed_text, response.xpath('//td[contains(@width, "464")]/p//span/text()').getall()))
-        job_do = [job_do[1]] + [job_do[2] + '\n' + job_do[3]] + [job_do[4]+ '\n'+ job_do[5]] + [job_do[6]] + [job_do[7]] + [job_do[9]]
+        job_do = [job_do[1]] + [job_do[2] + ' ' + job_do[3]] + [job_do[4]+ ' '+ job_do[5]] + [job_do[6]] + [job_do[7]] + [job_do[9]+ job_do[10]]
         content = [{
             'id': i,
             'mine':m,
             'guest': g,
             'job_do': j,
         } for i, m, g, j in zip(id, mine, guest, job_do)]
+        final_content = []
+        for c in content:
+            content_str = f"Mỏ {c['mine']} của khách hàng {c['guest']}. Công việc cần làm: {c['job_do']}"
+            final_content.append(content_str)
+        final_content = '\n'.join(final_content)
+            
         yield {
             'title': title,
-            'content': content,
+            'content': [final_content],
         }
         
         
@@ -145,7 +151,7 @@ class CrawlingSpider(CrawlSpider):
                         'client': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]')[i].xpath('./td[2]/p//font/text()').get()),
                         'country': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]')[i].xpath('./td[3]/p//font/text()').get()),
                         'project_name': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]')[i].xpath('./td[4]/p//font/text()').get()),
-                        'facility': list(map(self.processed_text, response.xpath(f'//tr[contains(@style,"height: {h};")]')[i].xpath('./td[5]/p//font/text()').getall())),
+                        'facility': ', '.join(f for f in list(map(self.processed_text, response.xpath(f'//tr[contains(@style,"height: {h};")]')[i].xpath('./td[5]/p//font/text()').getall())) if f is not None),
                         'scopeOfWork': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]')[i].xpath('./td[6]/p//font/text()').get()),
                         'Pipe': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]')[i].xpath('./td[7]/p//font/text()').get()),
                         'completionDate': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]')[i].xpath('./td[8]/p//font/text()').get()),
@@ -156,7 +162,7 @@ class CrawlingSpider(CrawlSpider):
                         'client': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]').xpath('./td[2]/p//font/text()').get()),
                         'country': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]').xpath('./td[3]/p//font/text()').get()),
                         'project_name': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]').xpath('./td[4]/p//font/text()').get()),
-                        'facility': list(map(self.processed_text, response.xpath(f'//tr[contains(@style,"height: {h};")]').xpath('./td[5]/p//font/text()').getall())),
+                        'facility': ', '.join(f for f in list(map(self.processed_text, response.xpath(f'//tr[contains(@style,"height: {h};")]').xpath('./td[5]/p//font/text()').getall())) if f is not None),
                         'scopeOfWork': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]').xpath('./td[6]/p//font/text()').get()),
                         'Pipe': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]').xpath('./td[7]/p//font/text()').get()),
                         'completionDate': self.processed_text(response.xpath(f'//tr[contains(@style,"height: {h};")]').xpath('./td[8]/p//font/text()').get()),
@@ -167,16 +173,26 @@ class CrawlingSpider(CrawlSpider):
                         'client': self.processed_text(response.xpath(f'//tr[contains(@style,"height: 39.75pt;")]')[1].xpath('./td[2]/p//font/text()').get()),
                         'country': self.processed_text(response.xpath(f'//tr[contains(@style,"height: 39.75pt;")]')[1].xpath('./td[3]/p//font/text()').get()),
                         'project_name': self.processed_text(response.xpath(f'//tr[contains(@style,"height: 39.75pt;")]')[1].xpath('./td[4]/p//font/text()').get()),
-                        'facility': list(map(self.processed_text, response.xpath(f'//tr[contains(@style,"height: 39.75pt;")]')[1].xpath('./td[5]/p//font/text()').getall())),
+                        'facility': ', '.join(f for f in list(map(self.processed_text, response.xpath(f'//tr[contains(@style,"height: 39.75pt;")]')[1].xpath('./td[5]/p//font/text()').getall())) if f is not None),
                         'scopeOfWork': self.processed_text(response.xpath(f'//tr[contains(@style,"height: 39.75pt;")]')[1].xpath('./td[6]/p//font/text()').get()),
                         'Pipe': self.processed_text(response.xpath(f'//tr[contains(@style,"height: 39.75pt;")]')[1].xpath('./td[7]/p//font/text()').get()),
                         'completionDate': self.processed_text(response.xpath(f'//tr[contains(@style,"height: 39.75pt;")]')[1].xpath('./td[8]/p//font/text()').get()),
                     })        
-        
-            
+        final_content = []
+        for c in content:
+            client = f"Khách hàng {c['client']} " if c['client'] else ""
+            country = f"ở {c['country']} " if c['country'] else ""
+            project_name = f"có dự án là \"{c['project_name']}\". " if c['project_name'] else ""
+            facility = f"Dự án bắt đầu vào {c['year']}, có cơ sở vật chất {c['facility']} " if c['facility'] else ""
+            SOW = f"và phạm vi công việc {c['scopeOfWork']}" if c['scopeOfWork'] else ""
+            pipe = f", sử dụng đường ống {c['Pipe']} " if c['Pipe'] else "."
+            completion_date = f", kết thúc vào ngày {c['completionDate']}." if c['completionDate'] else ""
+            content_str = client + country + project_name + facility + SOW + pipe + completion_date
+            final_content.append(content_str)
+        final_content = '\n'.join(final_content)
         yield {
             'title': title,
-            'content': content,
+            'content': [final_content],
         }
         
         
@@ -185,6 +201,7 @@ class CrawlingSpider(CrawlSpider):
         title = self.processed_text(response.xpath('//strong[contains(@class, "ms-rteFontSize-4")]//text()').get())
         content = []
         num_rows = 18
+        final_content = []
         for i in range(num_rows):
             content.append({
                 'id': self.processed_text(response.xpath('//tr[contains(@style, "height: 31.15pt;")]')[i].xpath('./td[1]/p//font/text()').get()),
@@ -197,10 +214,19 @@ class CrawlingSpider(CrawlSpider):
                 'launchingBarge': self.processed_text(response.xpath('//tr[contains(@style, "height: 31.15pt;")]')[i].xpath('./td[8]/p//font/text()').get()),
                 
             })
-            
+        for c in content:
+            client = f"Khách hàng {c['client']} " if c['client'] else ""
+            project_name = f"có dự án là \"{c['project_name']}\" " if c['project_name'] else ""
+            SOW = f"và phạm vi dự án {c['scope']}." if c['scope'] else ""
+            weight = f"Trọng lượng {c['weight']}MT" if c['weight'] else ""
+            crane = f", sử dụng máy {c['crane']} " if c['crane'] else "."
+            launching_barge = f"và tàu {c['launchingBarge']}." if c['launchingBarge'] else "."
+            content_str = client + project_name + SOW+ weight+ crane+ launching_barge
+            final_content.append(content_str)
+        final_content = '\n'.join(final_content)    
         yield {
             'title': title,
-            'content': content,
+            'content': [final_content],
         }
         
         
@@ -209,6 +235,7 @@ class CrawlingSpider(CrawlSpider):
         title = self.processed_text(response.xpath('//strong[contains(@class, "ms-rteFontSize-4")]//text()').get())
         content = []
         num_rows = 10
+        final_content = []
         for i in range(num_rows):
             content.append({
                 'id': self.processed_text(response.xpath('//tr[contains(@style, "height: 31.15pt;")]')[i].xpath('./td[1]/p/strong/text()').get()),
@@ -221,8 +248,18 @@ class CrawlingSpider(CrawlSpider):
                 'remark': self.processed_text(response.xpath('//tr[contains(@style, "height: 31.15pt;")]')[i].xpath('./td[8]/p//font/text()').get()),
                 
             })
-            
+        for c in content:
+            client = f"Khách hàng {c['client']} " if c['client'] else ""
+            project_name = f"có dự án là \"{c['project_name']}\" " if c['project_name'] else ""
+            SOW = f"và phạm vi dự án {c['scope']}. " if c['scope'] else ""
+            weight = f"Trọng lượng {c['weight']}MT" if c['weight'] else ""
+            installation_method = f", sử dụng phương pháp lắp đặt {c['installationMethod']}" if c['installationMethod'] else ""
+            crane = f", sử dụng máy {c['crane']} " if c['crane'] else "."
+            remark = f"và lắp đặt {c['remark']}." if c['remark'] else "."
+            content_str = client + project_name + SOW+ weight+ installation_method + crane+ remark
+            final_content.append(content_str)
+        final_content = '\n'.join(final_content)
         yield {
             'title': title,
-            'content': content,
+            'content': [final_content],
         }
