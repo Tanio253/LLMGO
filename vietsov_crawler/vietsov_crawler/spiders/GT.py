@@ -53,7 +53,7 @@ class CrawlingSpider(CrawlSpider):
         yield {
             'title': title,
             # 'image': img,
-            'content': content
+            'content': [content]
         }
     
         
@@ -77,7 +77,7 @@ class CrawlingSpider(CrawlSpider):
             final_content.append(content_str.strip())
         yield {
             'title': title,
-            'content': final_content
+            'content': ['\n'.join(final_content)]
         }
         
         
@@ -94,7 +94,7 @@ class CrawlingSpider(CrawlSpider):
         yield {
             'title': title,
             # 'image': img,
-            'content': content
+            'content': [content]
         }
         
         
@@ -117,7 +117,7 @@ class CrawlingSpider(CrawlSpider):
             
         yield {
             'title': title,
-            'content': member
+            'content': ['\n'.join(member)]
         }
         
         
@@ -129,7 +129,7 @@ class CrawlingSpider(CrawlSpider):
         yield {
             'title': title,
             # 'image': img,
-            'content': content
+            'content': [content]
         }
         
         
@@ -141,7 +141,7 @@ class CrawlingSpider(CrawlSpider):
         yield {
             'title': title,
             # 'image': img,
-            'content': content
+            'content': [content]
         }
         
         
@@ -153,7 +153,7 @@ class CrawlingSpider(CrawlSpider):
         achievements = '\n'.join(i for i in list(map(lambda x, y: x + y, number, content)) if i is not None)
         yield {
             'title': title,
-            'content': achievements
+            'content': [achievements]
         }
         
         
@@ -179,7 +179,7 @@ class CrawlingSpider(CrawlSpider):
         full_medal = ''.join(full_medal)
         yield {
             'title': title,
-            'content': full_medal
+            'content': [full_medal]
         }
         
         
