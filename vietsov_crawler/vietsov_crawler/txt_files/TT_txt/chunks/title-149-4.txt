@@ -1,0 +1,5 @@
+Các sự kiện nổi bật của Petrovietnam trong tuần từ ngày 4/6 đến 11/6/2023
+Ngày phát hành: 6/12/2023 7:10:51 AM 
+Vượt qua 12 yêu cầu khắt khe trong tiêu chuẩn bảo mật dữ liệu thẻ thanh toán, Ngân hàng TMCP Đại Chúng Việt Nam (PVcomBank) đã nhận được chứng chỉ bảo mật quốc tế PCI DSS năm đầu tiên. Chứng chỉ là phiên bản 3.2.1 ở cấp độ cao nhất (level 1), được cấp bởi Công ty TNHH Hệ thống Thông tin FPT (FPT IS), có hiệu lực trong vòng 1 năm.
+PVcomBank đạt chứng chỉ bảo mật quốc tế PCI DSS ở cấp độ cao nhất
+Với việc được cấp chứng chỉ PCI DSS lần này, hằng năm, PVcomBank sẽ phải trải qua các kỳ đánh giá lại với các yêu cầu bảo mật phải được nâng cấp và duy trì thường xuyên. Điều đó đòi hỏi PVcomBank sẽ cần dành nhiều nguồn lực và thời gian đầu tư cho hệ thống công nghệ thông tin. Đây vừa là yêu cầu cần thiết song cũng là cơ hội để Ngân hàng tiếp cận với các công nghệ mới, tập trung cải tiến và khắc phục những điểm chưa phù hợp để nâng cao hiệu quả an toàn, an ninh thông tin, đáp ứng các tiêu chí của bộ tiêu chuẩn PCI DSS.

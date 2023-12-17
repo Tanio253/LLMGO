@@ -1,0 +1,5 @@
+Xí nghiệp Cơ điện tổ chức Hội thảo về Khoa học Công nghệ
+Ngày phát hành: 7/5/2016 10:06:22 AM 
+Hiện nay, các giàn khoan của Liên doanh Việt –Nga Vietsovpetro (Vietsovpetro) trên các mỏ Bạch Hổ, mỏ Rồng, mỏ GTC-1, mỏ ThTC đã được cung cấp điện bằng hệ thống cáp điện lực với cấp điện áp 6,3 kV và 22 kV chạy ngầm dưới biển. Trong quá trình vận hành các tuyến cáp ngầm đã xảy ra nhiều sự cố hư hỏng cáp (PPD-MSP1; CTK3-BK8, …) làm gián đoạn cung cấp điện một số giàn gây thiệt hại về kinh tế. Do đó, nhóm tác giả đã nghiên cứu ứng dụng thiết bị TDR (Time Domanin Reflection) kết hợp với việc bơm dòng điện áp thấp để tìm kiếm và xác định vị trí cáp ngầm bị hư hỏng cách điện. Việc ứng dụng thành công giải pháp này đã giúp Vietsovpetro nhanh chóng xử lý các sự cố về cáp ngầm, kịp thời đưa các tuyến cáp ngầm vào làm việc góp phần tiết giảm chi phí sản xuất.
+Đồng chí ĐặngTrọng Phương – Trưởng phòng Thí nghiệm điện
+báo cáo đề tài

@@ -1,0 +1,4 @@
+Cơ sở vật chất & phương tiện
+KHAI THÁC CÁC CÔNG TRÌNH KHÍ:
+Có 3 giàn nén khí được điều khiển và kiểm soát bằng chương trình PLC, với tổng công suất lên đến 10.1 triệu m3/ngày đêm, áp suất nén tối đa đạt 125 bar :
+Giàn nén khí trung tâm (CCP) ;

@@ -1,0 +1,5 @@
+Đoàn Thanh niên Xí nghiệp Khai thác Dầu khí tổ chức Diễn đàn Khoa học thanh niên Quý II/2022
+Ngày phát hành: 4/28/2022 5:33:52 PM 
+Với tham luận thứ 3, đại diện nhóm triển khai dự án InforEAM, đồng chí Dư Trần Hưng và đồng chí Hoàng Đình Quế đã đưa tới diễn đàn tham luận
+“InforEAM – Hệ thống Quản lý công tác bảo trì, bảo dưỡng, sửa chữa thiết bị tại Xí nghiệp Khai thác Dầu khí Vietsovpetro",
+giới thiệu những chức năng của hệ thống cùng cập nhật những kết quả đã đạt được cho đến hiện tại. Với mục tiêu kiểm soát công tác bảo dưỡng, sửa chữa thiết bị nhằm đảm bảo vận hành an toàn, phòng ngừa các sự cố, hỏng hóc và tối ưu hoá việc sử dụng vật tư, nguồn lực trong bảo dưỡng, sửa chữa, XNKT đã tổ chức thực hiện dự án cải tiến nâng cấp hệ thống Infor EAM quản lý bảo dưỡng sửa chữa thiết bị nhằm đạt được những mục tiêu trên. Tính đến thời điểm hiện tại, nhóm đã hoàn thiện nâng cấp cải tiến hệ thống Infor EAM và đã đưa vào vận hành, áp dụng thực tế tại giàn PPD40.000, hoàn thiện xây dựng hệ thống quản lý thiết bị nâng trên Infor EAM, sẵn sàng đưa vào vận hành thử nghiệm, hoàn thiện công đoạn khảo sát và xây dựng mô hình mẫu quản lý đường ống công nghệ trên Infor EAM.

@@ -1,0 +1,5 @@
+Xí nghiệp Cơ điện nơi hình thành những “trái tim, khối óc” cho các công trình dầu khí
+Ngày phát hành: 10/6/2021 7:57:08 AM 
+- Hệ thống điều khiển công nghệ PCS (Process Control System): cung cấp toàn bộ chức năng điều khiển và giám sát về công nghệ.
+- Hệ thống điều khiển an toàn ESD (Emergency Shutdown System): đảm bảo an toàn cho công trình trước các tình huống nguy hiểm, bất thường có thể xảy ra trong quá trình vận hành.
+- Hệ thống điều khiển FGS (Fire & Gas Detection System): chức năng bảo vệ công trình tránh các nguy cơ về rò rỉ khí và an toàn phòng chống cháy.

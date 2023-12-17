@@ -1,0 +1,5 @@
+Sáng kiến sáng chế phục vụ phòng chống dịch Covid 19
+Ngày phát hành: 4/22/2020 7:36:32 AM 
+tự động
+gồm các bộ phận: Máy bơm tăng áp, mạch lập trình điều khiển trung tâm, mạch điều khiển công suất máy bơm, hệ thống cảm biến, bộ phận chứa dung dịch ... Ưu điểm của máy là người sử dụng không chạm tay trực tiếp vào dụng cụ đựng nước, giảm nguy cơ lây nhiễm dịch Covid-19, cho cảm giác an toàn hơn khi Ếử dụng.
+Ngoài ra, khoang trống trong máy được thiết kế cho phép đặt bình nước sát khuẩn, với dung tích là hơn 2 lít. Ước tính bình quân 1 lít hóa chất có thể phục vụ từ 2.500 - 3.000 lượt người.

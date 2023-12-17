@@ -1,0 +1,2 @@
+Dự án lặp đặt khối thượng tầng
+Khách hàng JPVC có dự án là "E1A" và phạm vi dự án EPCI. Trọng lượng 400MT, sử dụng phương pháp lắp đặt Single Hook, sử dụng máy Hoang Sa .

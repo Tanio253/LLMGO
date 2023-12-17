@@ -1,0 +1,5 @@
+Lễ nghiệm thu hệ thống điều khiển ICSS giàn Bk Thiên Ưng và RC9
+Ngày phát hành: 5/5/2016 2:06:36 PM 
+Tới dự buổi lễ về phía Ban lãnh đạo Liên doanh Việt – Nga Vietsovpetro có đồng chí Cao Tùng Sơn – Phó Tổng giám đốc LD Việt - Nga Vietsovpetro, cùng đại diện các phòng ban trực thuộc Bộ máy Điều hành, Ban Quản lý hợp đồng dầu khí, Viện NIPI, XN Xây lắp.
+Về phía XNKTDK có đ/c Trần Văn Thường – Giám đốc, các đ/c trong Ban Giám đốc  và đại diện các phòng ban của Xí nghiệp.
+Hệ thống điều khiển ICSS giàn BK Thiên Ưng bao gồm 13 tủ điều khiển, 11 máy tính với nhiệm vụ điều khiển và giám sát toàn bộ hệ thống công nghệ, an toàn sự cố, báo cháy báo khí của giàn Thiên Ưng. Quy mô của hệ thống ICSS RC9 bao gồm 3 tủ điều khiển và 02 máy tính điều khiển giám sát. Cả 02 hệ thống ICSS nêu trên đều được thiết kế theo các tiêu chuẩn quốc tế, là một hệ điều khiển phân tán (DCS) với tính năng an toàn dự phòng (Full redundant), tích hợp tổng thể và toàn diện sử dụng thiết bị và phần mềm PCS7 V8.1, một trong những dòng sản phẩm với phiên bản phần mềm mới nhất của hãng Siemens.

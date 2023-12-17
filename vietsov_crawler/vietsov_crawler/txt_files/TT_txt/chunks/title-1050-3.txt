@@ -1,0 +1,5 @@
+Lễ Khánh thành các công trình thuộc dự án Cá Tầm do Xí nghiệp Cơ điện tự thực hiện
+Ngày phát hành: 8/24/2018 1:23:40 PM 
+Thiết  kế, chế tạo hai (02) tủ điều khiển thủy lực cho van sâu (WHCP), mỗi tủ điều  khiển 6 giếng. Các tủ điều khiển giếng có vai trò quan trọng trong công nghệ  khai thác dầu khí, có nhiệm vụ mở các giếng khai thác dầu khí cũng như đóng  giếng trong trường hợp khẩn cấp. Việc đóng giếng (ESD, PSD) có thể thực hiện  được từ phòng điều khiển (Control Room) hoặc bằng nút nhấn khẩn cấp tại tủ cũng  như khu vực đầu giếng (wellhead area).  Tủ được thiết kế với áp suất làm việc  lớn nhất là 518 Bar, theo nguyên lý khí nén - thủy lực. Tủ điều khiển bao gồm  nhiều hệ thống như: Hệ thống khí nén điều khiển,
+h
+ệ thống cấp áp suất thủy lực thủy lực, hệ thống khí  điều khiển dừng khẩn cấp (ESD và PSD). Các trạm điều khiển giếng này trước đây  VSP phải mua từ các nhà sản xuất nước ngoài, trong những năm gần đây XNCĐ đã làm  chủ được công nghệ và đảm nhiệm được hoàn toàn việc thiết kế, mua sắm, tích hợp  và chế tạo.

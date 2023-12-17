@@ -1,0 +1,2 @@
+Dự án lặp đặt khối thượng tầng
+Khách hàng PCVL có dự án là "Ruby A" và phạm vi dự án EPCI. Trọng lượng 650MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa .

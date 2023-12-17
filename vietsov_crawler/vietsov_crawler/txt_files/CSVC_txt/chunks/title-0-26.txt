@@ -1,0 +1,4 @@
+Cơ sở vật chất & phương tiện
+NGHIÊN CỨU KHOA HỌC VÀ THIẾT KẾ DẦU KHÍ BIỂN:
+Phần mềm CMG dùng trong mô hình thủy động lực học khai thác mỏ;
+Phần mềm OILTEST, PANSYSTEM dùng trong xử lý số liệu nghiên cứu giếng;

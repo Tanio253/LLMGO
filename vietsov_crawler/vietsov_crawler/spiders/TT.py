@@ -41,7 +41,7 @@ class CrawlingSpider(CrawlSpider):
     def parse_news(self, response):
         title = self.processed_text(response.xpath('//div[@class="title1"]//text()').get())
         date_published = response.xpath('//div[@id="topcontent"]/b/text()').get()
-        content = ' '.join(i for i in list(map(self.processed_text, response.xpath('//div[@id="topslidesdiv"]/div//text()').getall())) if i is not None)
+        content = '\n'.join(i for i in list(map(self.processed_text, response.xpath('//div[@id="topslidesdiv"]/div//text()').getall())) if i is not None)
         img = list(map(lambda x: "https://www.vietsov.com.vn/" + x, response.xpath('//div[@id="topslidesdiv"]//p//img//@src').getall()))
         content = f"Ngày phát hành: {date_published}\n{content}"
         yield {

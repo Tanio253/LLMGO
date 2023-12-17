@@ -1,0 +1,2 @@
+Dự án EPCI đường ống (pipeline)
+Khách hàng PETRON-AS ở VIETNAM có dự án là "Ruby WHP". Dự án bắt đầu vào 1997-1998, có cơ sở vật chất Ruby Production Platform:, +Jacket (4 legged); 750 MT, +Topside: 300 MT và phạm vi công việc Fabrication  Onshore,.

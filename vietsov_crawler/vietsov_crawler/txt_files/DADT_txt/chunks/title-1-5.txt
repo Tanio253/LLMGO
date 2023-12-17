@@ -1,0 +1,2 @@
+Dự án lặp đặt khối thượng tầng
+Khách hàng Cuu Long JOC có dự án là "SVNSW" và phạm vi dự án I. Trọng lượng 750MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Truong Sa .

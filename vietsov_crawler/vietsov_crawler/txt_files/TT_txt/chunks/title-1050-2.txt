@@ -1,0 +1,5 @@
+Lễ Khánh thành các công trình thuộc dự án Cá Tầm do Xí nghiệp Cơ điện tự thực hiện
+Ngày phát hành: 8/24/2018 1:23:40 PM 
+với  nhiệm vụ điều khiển
+và  giám sát toàn bộ hệ thống công nghệ, an toàn sự cố, báo cháy báo khí. Hệ thống  ICSS được XNCĐ  thiết kế, lập trình  theo các tiêu  chuẩn quốc tế, điều khiển phân tán (DCS) và an toàn dự phòng (Full redundant),  tích hợp tổng thể và toàn diện sử dụng thiết bị và phần mềm PCS7 V9.0 SP1, công  nghệ hiện đại và mới nhất của hãng Siemens.
+-

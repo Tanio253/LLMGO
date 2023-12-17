@@ -1,0 +1,2 @@
+Dự án EPCI đường ống (pipeline)
+Khách hàng CLJOC ở VIETNAM có dự án là "SVSW (6X)". Dự án bắt đầu vào 2014, có cơ sở vật chất Jacket: 600 MT, Topside: 700 MT, Pipeline Laying: 14km, 6 & 10'' và phạm vi công việc T&I, sử dụng đường ống Hoang Sa/Con Son , kết thúc vào ngày 5/14/2014.

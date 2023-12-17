@@ -1,0 +1,5 @@
+Xí nghiệp Khoan & Sửa giếng tổng kết hoạt động sáng kiến sáng chế năm 2019
+Ngày phát hành: 11/3/2020 8:11:48 AM 
+- Chế tạo, lắp đặt bộ truyền động trung gian cho motor encoder máy bơm khoan giàn Tam Đảo-05;
+- Thiết kế và lắp đặt tủ hòa đồng bộ nguồn điện ktp với nguồn máy phát trên giàn Tam Đảo-01 để phục vụ việc chuyển đổi nguồn điện;
+- Thiết kế lắp đặt bộ đồ gá bảo vệ tuyến cáp điện di động bên hông phải Cantilever và phía sau sàn khoan ở giàn tự nâng Tam Đảo-01;

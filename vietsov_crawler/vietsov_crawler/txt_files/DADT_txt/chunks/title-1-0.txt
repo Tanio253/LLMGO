@@ -1,0 +1,2 @@
+Dự án lặp đặt khối thượng tầng
+Khách hàng Hoan Vu JOC có dự án là "Ca Ngu Vang" và phạm vi dự án EPCI. Trọng lượng 319MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa và lắp đặt Module.

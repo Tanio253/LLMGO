@@ -1,0 +1,4 @@
+Cơ sở vật chất & phương tiện
+CÔNG NGHỆ THÔNG TIN VÀ LIÊN LẠC:
+Cơ sở hạ tầng mạng LAN, WAN;
+Hệ thống máy chủ (Web, Mail, dữ liệu…)

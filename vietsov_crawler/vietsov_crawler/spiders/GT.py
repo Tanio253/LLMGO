@@ -117,7 +117,7 @@ class CrawlingSpider(CrawlSpider):
             
         yield {
             'title': title,
-            'content': ['\n'.join(member)]
+            'content': [''.join(member)]
         }
         
         

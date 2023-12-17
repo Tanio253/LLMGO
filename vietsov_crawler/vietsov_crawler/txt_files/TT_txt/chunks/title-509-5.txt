@@ -1,0 +1,5 @@
+Xí nghiệp Cơ điện tổ chức Lễ Khánh thành Bộ đo đa pha MPFM chế tạo cho BK 21
+Ngày phát hành: 7/14/2020 7:45:06 AM 
+đầu ra của chất lỏng để tránh việc khí xâm nhập vào pha lỏng.
+Về điều khiển, XNCĐ đã lập trình, đưa ra các logic điều khiển phù hợp, đáp ứng theo sự thay đổi áp suất và lưu lượng đầu vào để đảm bảo dòng chảy ổn định, hạn chế tình trạng khí xâm nhập vào pha lỏng để bộ đo đạt được độ tin cậy và cấp chính xác theo yêu cầu của thiết kế. Trong đó bộ đo được điều chỉnh bởi 02 bộ điều khiển PID theo áp suất và mức chất lỏng trong cột ống ngang. Khi lưu lượng tăng cao, nếu van điều khiển mức đã mở 100% vẫn chưa đủ đáp ứng để ổn định mức thì lúc này bộ điều khiển áp suất sẽ tăng áp để đảm bảo mức ổn định theo điểm đặt và ngược lại. Trong quá trình đo, nếu khí lọt vào đường đo lỏng thông qua việc kiểm soát thông số Drive Gain thì bộ đo sẽ đóng van điều khiển mức nếu mức đang thấp và mở 100% van điều khiển áp suất để khí thoát ra qua đường khí nhằm đảm bảo đo chính xác.
+Tại buổi Lễ, đồng chí Trịnh Hoàng Linh – Giám đốc XNCĐ đã trình bày báo cáo tóm tắt về quá trình thực hiện dự án

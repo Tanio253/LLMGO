@@ -1,0 +1,5 @@
+Sáng kiến sáng chế phục vụ phòng chống dịch Covid 19
+Ngày phát hành: 4/22/2020 7:36:32 AM 
+Máy hoạt động theo nguyên lý: sau khi người được đo tiếp xúc gần với máy trong cự ly từ 15cm, máy sẽ tự động bật hệ thống cảm biến nhiệt độ và màn hình led tại chỗ và từ xa sẽ hiển thị nhiệt độ của người sử dụng, nếu người đo có nhiệt độ cao hơn bình thường máy sẽ báo đèn đỏ và đổ chuông thông báo cho nhân viên y tế biết. Máy đã được Trung tâm Kỹ thuật tiêu chuẩn đo lường chất lượng TPHCM thử nghiệm, kiểm tra và cấp tem kiểm định, chứng chỉ chất lượng cho phép hoạt động đo thân nhiệt cho người.
+Máy
+rửa tay sát khuẩn

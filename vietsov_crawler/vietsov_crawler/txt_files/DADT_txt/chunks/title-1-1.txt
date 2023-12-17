@@ -1,0 +1,2 @@
+Dự án lặp đặt khối thượng tầng
+Khách hàng Thang Long JOC có dự án là "Song Doc A" và phạm vi dự án I. Trọng lượng 650MT, sử dụng phương pháp lắp đặt Two Hook, sử dụng máy Hoang Sa .

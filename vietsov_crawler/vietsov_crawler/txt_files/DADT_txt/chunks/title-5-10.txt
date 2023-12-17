@@ -1,0 +1,2 @@
+Dự án EPCI đường ống (pipeline)
+Khách hàng JVPC ở VIETNAM có dự án là "E1A". Dự án bắt đầu vào 2012, có cơ sở vật chất Tripod Jacket: 500T và phạm vi công việc CI, sử dụng đường ống Hoang Sa , kết thúc vào ngày 6/1/2012.

@@ -1,0 +1,5 @@
+Sáng kiến sáng chế phục vụ phòng chống dịch Covid 19
+Ngày phát hành: 4/22/2020 7:36:32 AM 
+Máy đo thân nhiệt
+tự động
+không tiếp xúc sẽ giúp nhân viên y tế không tiếp xúc gần người được đo, tránh nguy cơ lây dịch Covid -19. Máy đo này gồm các bộ phận như: cảm biến hồng ngoại để đo thân nhiệt, mạch lập trình điều khiển và hệ thống điều chỉnh lên xuống cho phù hợp với chiều cao của người được đo, hệ thống hiển thị từ xa kết nối không dây giúp nhân viên có thể theo dõi từ khoảng cách 50m. Máy có thể đo nhanh liên tục với số lượt đo không giới hạn, không bị treo máy như một số các máy đo cầm tay điện tử  trên thị trường. Nhờ áp dụng việc đo thân nhiệt bằng máy đo tự động đã giảm số lượng nhân viên y tế phải có mặt để thực hiện công việc khám sàng lọc ban đầu tại TTYT Vietsovpetro. Đồng thời đảm bảo khoảng cách an toàn cho các nhân viên y tế khi tiếp xúc với bệnh nhân đến khám.

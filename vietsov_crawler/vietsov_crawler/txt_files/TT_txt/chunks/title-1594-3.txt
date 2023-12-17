@@ -1,0 +1,5 @@
+Lễ nghiệm thu hệ thống điều khiển ICSS giàn Bk Thiên Ưng và RC9
+Ngày phát hành: 5/5/2016 2:06:36 PM 
+Giai đoạn lắp đặt tủ điều khiển ICSS Thiên Ưng
+Giai đoạn kiểm tra và chạy thử hệ thống trên bờ hệ thống ICSS Thiên Ưng
+Giao diện vận hành của hệ thống ICSS Thiên Ưngs

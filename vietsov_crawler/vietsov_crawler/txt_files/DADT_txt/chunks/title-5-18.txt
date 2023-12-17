@@ -1,0 +1,2 @@
+Dự án EPCI đường ống (pipeline)
+Khách hàng PTSC ở VIETNAM có dự án là "FSO5". và phạm vi công việc Installation.

@@ -1,0 +1,5 @@
+Lễ Khánh thành các công trình thuộc dự án Cá Tầm do Xí nghiệp Cơ điện tự thực hiện
+Ngày phát hành: 8/24/2018 1:23:40 PM 
+-
+Tủ  điều khiển và phân phối điện (MCC, EMCC) cung cấp điện động lực cho tất cả  các hộ tiêu thụ trên giàn bao gồm hệ thống máy móc thiết bị công nghệ, hệ thống  chiếu sáng và  hệ thống cấp nguồn điện sự cố trên giàn CTC1. Các  tủ điều khiển được cấp nguồn 3 pha 4 dây, điện áp 380/220Vac, tần số 50Hz,  cấp bảo vệ IP42, trong đó: Tủ điện chính và sự cố (tủ điện MCC và EMCC) có  dòng định mức thanh cái 800A với chức năng điều khiển đóng/cắt các ngăn lộ phụ  tải tại chỗ và từ xa, điều khiển, hiển thị giám sát về PCS, 06 tủ điện phân phối  nhỏ (Distribution Panels) có dòng định mức thanh cái từ 40A đến 100A và 02 tủ  biến tần cấp điện cho bơm cứu hỏa có dòng định mức 250A. Các tủ điện này  được thiết kế, lắp đặt đáp ứng theo các tiêu chuẩn IEC hiện  hành.
+-

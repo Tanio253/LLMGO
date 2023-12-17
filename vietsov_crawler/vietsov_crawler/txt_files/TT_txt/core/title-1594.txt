@@ -1,0 +1,17 @@
+Lễ nghiệm thu hệ thống điều khiển ICSS giàn Bk Thiên Ưng và RC9
+Ngày phát hành: 5/5/2016 2:06:36 PM 
+Tới dự buổi lễ về phía Ban lãnh đạo Liên doanh Việt – Nga Vietsovpetro có đồng chí Cao Tùng Sơn – Phó Tổng giám đốc LD Việt - Nga Vietsovpetro, cùng đại diện các phòng ban trực thuộc Bộ máy Điều hành, Ban Quản lý hợp đồng dầu khí, Viện NIPI, XN Xây lắp.
+Về phía XNKTDK có đ/c Trần Văn Thường – Giám đốc, các đ/c trong Ban Giám đốc  và đại diện các phòng ban của Xí nghiệp.
+Hệ thống điều khiển ICSS giàn BK Thiên Ưng bao gồm 13 tủ điều khiển, 11 máy tính với nhiệm vụ điều khiển và giám sát toàn bộ hệ thống công nghệ, an toàn sự cố, báo cháy báo khí của giàn Thiên Ưng. Quy mô của hệ thống ICSS RC9 bao gồm 3 tủ điều khiển và 02 máy tính điều khiển giám sát. Cả 02 hệ thống ICSS nêu trên đều được thiết kế theo các tiêu chuẩn quốc tế, là một hệ điều khiển phân tán (DCS) với tính năng an toàn dự phòng (Full redundant), tích hợp tổng thể và toàn diện sử dụng thiết bị và phần mềm PCS7 V8.1, một trong những dòng sản phẩm với phiên bản phần mềm mới nhất của hãng Siemens.
+Hệ thống ICSS của giàn Thiên Ưng và RC9 được thực hiện đồng thời cùng một lúc với tiến độ rất gấp nhằm đảm bảo đúng kế hoạch sản xuất của Ban Lãnh đạo Vietsovpetro đã đề ra. Trong quá trình thực hiện, XNKTDK cũng đã gặp không ít khó khăn trong các khâu mua sắm vật tư, thiếu nhân lực do triển khai đồng thời nhiều dự án. Nhưng với tinh thần đoàn kết, đồng lòng, kỹ năng làm việc nhóm tốt, chuyên nghiệp hóa tất cả các khâu từ quản lý dự án, họp, thảo luận đến triển khai các hạng mục công việc được thực hiện tốt. Đội ngũ quản lý và thực hiện dự án có độ tuổi tương đối trẻ nhưng đã được tích lũy kinh nghiệm qua các dự án ICSS trước đây, có trình độ chuyên môn cao, có trách nhiệm và nhiệt huyết. Đây cũng là lần đầu tiên XNKTDK tự thực hiện trọn gói một Hệ thống điều khiển ICSS giàn khai thác khí từ các khâu: lập kế hoạch, sơ đồ tổ chức đến phân tích tài liệu thiết kế, lập danh mục vật tư, thiết kế, lập trình, lắp đặt, chạy thử trên bờ, nghiệm thu và bàn giao hệ thống.
+Trong quá trình thực hiện dự án, XNKTDK luôn nhận được sự giúp đỡ, tạo điều kiện về mọi mặt của Ban Tổng giám đốc và sự phối hợp ăn ý giữa các đơn vị  XNKT, NIPI, Ban QLHĐDK, XNXL… đã giúp cho dự án hoàn thành đúng tiến độ đề ra và đảm bảo chất lượng. Đặc biệt lãnh đạo XNKT luôn tạo điều kiện tốt nhất trong công tác chỉ đạo, điều động nhân sự cũng như động viên và quan tâm kịp thời đến các thành viên thực hiện dự án.
+Buổi nghiệm thu công trình Hệ thống điều khiển ICSS Thiên Ưng và RC9 giữa các bên tham gia gồm: Ban QLHĐDK, Viện NIPI, XNXL, XNKTDK đã thành công tốt đẹp trước sự chứng kiến của lãnh đạo Vietsovpetro và lãnh đạo XNKTDK.
+Dưới đây là một số hình ảnh trong quá trình thực hiện dự án ICSS Thiên Ưng và ICSS RC9:
+Đ/c Cao Tùng Sơn - Phó Tổng giám đốc Liên Doanh Việt – Nga Vietsovpetro và
+đ/c Trần Văn Thường - Giám đốc XNKT chụp ảnh lưu niệm cùng đại diện các phòng ban
+Giai đoạn lắp đặt tủ điều khiển ICSS Thiên Ưng
+Giai đoạn kiểm tra và chạy thử hệ thống trên bờ hệ thống ICSS Thiên Ưng
+Giao diện vận hành của hệ thống ICSS Thiên Ưngs
+Tủ điều khiển của hệ thống ICSS giàn RC9
+Giai đoạn vận hành và chạy thử hệ thống ICSS RC9
+Quang cảnh buổi lễ nghiệm thu hệ thống ICSS RC9

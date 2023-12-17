@@ -44,7 +44,7 @@ class CrawlingSpider(CrawlSpider):
                 'Tên': self.processed_text(response.xpath('//h4[contains(@class, "base-name")]//text()').getall()[i]) + ':',
                 # 'Hình ảnh': "https://www.vietsov.com.vn" + response.xpath('//div[contains(@class, "element-item")]')[i].xpath('.//@src').get(),
                 # 'Mô tả': self.processed_text(response.xpath('//div[contains(@class, "desription")]//text()').getall()[i]),
-                'Nội dung': '\t' + '\n\t'.join(i for i in (list(map(self.processed_text, response.xpath('//div[contains(@class, "content")]/ul')[i].xpath('.//text()').getall()))) if i is not None)
+                'Nội dung':'\n'.join(i for i in (list(map(self.processed_text, response.xpath('//div[contains(@class, "content")]/ul')[i].xpath('.//text()').getall()))) if i is not None)
                 
             })
         for c in content:

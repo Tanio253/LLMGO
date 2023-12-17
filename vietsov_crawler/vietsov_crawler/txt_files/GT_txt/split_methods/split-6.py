@@ -1,0 +1,18 @@
+from modules.choose_lines_by_index import choose_lines_by_index
+import os
+class config:
+    OUTPUT_PREFIX = "../chunks"
+    current_file = os.path.abspath(__file__)
+    ORIGINAL_FILE = current_file[-4]
+    
+choose_lines_by_index([0,1,2], config)
+choose_lines_by_index([0,3,4], config)
+choose_lines_by_index([0,5,6], config)
+choose_lines_by_index([0,7,8], config)
+choose_lines_by_index([0,9,10], config)
+choose_lines_by_index([0,11,12], config)
+choose_lines_by_index([0,13,14], config)
+choose_lines_by_index([0,15,16], config)
+choose_lines_by_index([0,17,18], config)
+choose_lines_by_index([0,18,19], config)
+

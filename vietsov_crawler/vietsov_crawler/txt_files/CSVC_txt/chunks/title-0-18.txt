@@ -1,0 +1,4 @@
+Cơ sở vật chất & phương tiện
+CÔNG NGHỆ THÔNG TIN VÀ LIÊN LẠC:
+Hệ thống thông tin HF, VHF - Hệ thống thông tin vệ tinh (INMARSAT-C, INMARSATM, VSAT mặt đất...);
+Hệ thống hội họp VoIP, Video - Hệ thống truyền số liệu SCADA

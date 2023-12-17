@@ -1,0 +1,19 @@
+Vietsovpetro tổ chức hội thảo “Ứng dụng phần mềm quản lý dữ liệu trong lĩnh vực Dầu khí – Điện – Hóa dầu”
+Ngày phát hành: 5/22/2017 1:20:46 PM 
+Chiều 19/5/2017, tại
+khu vực Hội nghị của Khu nghỉ dưỡng Vietsovpetro, Liên doanh  Việt – Nga Vietsovpetro phối hợp với hãng OSIsoft (Hoa Kỳ) – đối tác của  Vietsovpetro về
+gói dịch vụ EPCIC cho hệ thống quản lý  dữ liệu (PDMS), đã tổ chức thành công HỘI THẢO  “ỨNG DỤNG PHẦN MỀM QUẢN LÝ DỮ LIỆU TRONG LĨNH VỰC DẦU KHÍ – ĐIỆN – HÓA DẦU”. Đây  là hoạt động nằm trong chiến lược xúc tiến, mở rộng và phát triển  dịch vụ ngoài, và theo chương trình công tác năm 2017 đã được Lãnh đạo  Vietsovpetro chỉ đạo quyết liệt và thông qua.
+Hội thảo có sự hiện diện của đại diện các khách truyền thống và khách  hàng tiềm năng của Vietsovpetro như:
+PVEP, PVEP POC,  Công ty Petronas Việt Nam PVGAS, Biển Đông POC, Phú Quốc POC, KNOC, Công  ty TNHH Hóa dầu Long Sơn… Về phía hãng OSIsoft có ông Pasha Ahmad –  Director EA, ông Phạm Trung Tú – Country Manager, cùng đại diện các bộ phận chức  năng của OSIsoft tham dự. Phía Vietsovpetro có đồng chí Vũ Mai  Khanh – Phó Tổng Giám đốc Đầu tư Phát triển & Dịch vụ, và lãnh đạo, bộ phận  kỹ thuật của các phòng ban liên quan đến tham dự và làm việc tại Hội thảo.
+Hội thảo có tất cả sáu tham luận của Vietsovpetro, OSIsoft và
+Công ty Petronas Việt Nam. Các tham luận đã được  lần lượt trình bày rất súc tích, cô đọng, mang lại rất nhiều thông tin bổ ích về  ứng dụng phần mềm PI trong hệ thống quản lý dữ liệu sản xuất. Hội thảo  cũng nhận được nhiều ý kiến trao đổi, thảo luận rất sôi nổi, thể hiện mối quan  tâm lớn của khách hàng – đặc biệt là các khách hàng tiềm năng đối với ứng dụng  này.
+Gói dịch vụ
+EPCIC cho hệ thống quản lý dữ  liệu (PDMS) là một giải pháp tối ưu sử dụng phần mềm PI của hãng OSIsoft  trong việc thu thập, quản lý, xử lý, lưu trữ dữ liệu phục vụ sản xuất. Với cấu  hình không quá phức tạp, PDMS có cơ chế thu thập, nén và lưu trữ dữ liệu với mã  hóa rất đặc biệt. Vì thế ít chiếm dung lượng lưu trữ, thời gian lưu trữ được rất  dài. Bên cạnh đó, hệ thống không đòi hỏi dung lượng đường truyền lớn nên rất  tiết kiệm chi phí. Cộng với việc hệ thống vẫn đãm bảo việc truyền dữ liệu trong  môi trường đường truyền tín hiệu không ổn định. Đây là tín năng ưu việc của hệ  thống mà chưa phần mềm nào đãm bảo được. Việc đăng nhập hệ thống, truy cập dữ  liệu, lọc và truy xuất thông tin rất nhanh và chính xác, tiết kiệm được rất  nhiều thời gian cho công tác vận hành và bảo dưỡng. Đây cũng là một hệ thống  giám sát dữ liệu thông minh, nên  rất thuận lợi cho công tác phân  tích dữ liệu theo nhu cầu của từng cấp quản lý. Đây là một trong những  sản phẩm dịch vụ kỹ thuật mang tính thương hiệu độc đáo của Vietsovpetro, đóng  góp vào thành công chung của công tác dịch vụ dầu khí Vietsovpetro.
+Được biết,
+trong thời gian qua, Vietsovpetro đã cung cấp dịch vụ  này cho các khách hàng như: Công ty Petronas Việt Nam, Công ty Điều hành chung  Lam Sơn, Công ty Premier Oil Việt Nam,…và nhận được sự hài lòng rất lớn của  khách hàng. Tham luận và trao đổi của khách hàng Petronas Việt Nam tại Hội thảo  cho thấy: Ứng dụng của hệ thống đã giúp Petronas Việt Nam rút ngắn thời gian  truyền tải dữ liệu – thông tin liên lạc giữa công trình biển và văn phòng ở đất  liền, việc quản lý dữ liệu trở nên tốt và thuận tiện hơn rất nhiều, dữ liệu được  bảo vệ và lưu trữ rất tốt, hệ thống hoạt động rất ổn định… Từ đó, việc xử lý  thông tin phục vụ sản xuất được tối ưu hóa, tiết kiệm được rất nhiều thời gian  và chi phí.
+MỘT SỐ HÌNH ẢNH HỘI  THẢO:
+Phó Tổng Giám đốc Đầu tư Phát triển & Dịch vụ Vũ  Mai Khanh phát biểu tại Hội thảo
+Toàn cảnh đại biểu thảo luận tại Hội  thảo
+Bộ phận kỹ thuật của Vietsovpetro và OSIsoft trình bày  tham luận và trao đổi với khách hàng
+Đại biểu Vietsovpetro, OSIsoft và đại diện khách  hàng chụp hình lưu niệm
+Tin & Ảnh: P. Tiếp thị & Dịch vụ

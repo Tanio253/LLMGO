@@ -1,0 +1,2 @@
+Dự án EPCI đường ống (pipeline)
+Khách hàng PVN ở VIETNAM có dự án là "PM3-CAMAU". Dự án bắt đầu vào 2006-2008, có cơ sở vật chất EPIC for onshore & offshore pipeline và phạm vi công việc 330km ( offshore, onshore, LFS, LBV, GDS).
